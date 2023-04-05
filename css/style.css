@@ -13,20 +13,17 @@ header {
 
 .logo {
     margin: 20px auto 20px 20px;
-
 }
 
 #logoimg {
     width: 100px;
     vertical-align: middle;
     margin: 20px auto 20px 20px;
-
 }
 
 #titolo {
     font-size: 50px;
     font-weight: bold;
-
 }
 
 /* fine header */
@@ -35,6 +32,7 @@ body {
     background-color: lightgrey;
 }
 
+/* indicazioni generali bottoni */
 .bottoni {
     background-color: white;
     margin: 10px 50px 10px 50px;
@@ -43,6 +41,7 @@ body {
 
 button {
     border-radius: 10%;
+    padding: 10px;
 }
 
 #bazzurro {
@@ -73,11 +72,8 @@ li {
     padding: 10px;
 }
 
-
-
 .nomi_lista {
     font-weight: bold;
-
 }
 
 .checkmark {
@@ -90,6 +86,10 @@ li {
     color: red;
     border: 1px solid red;
     border-radius: 50%;
+}
+
+li button {
+    border-radius: 40px;
 }
 
 /* colori bottoni lista */
@@ -109,9 +109,11 @@ li {
 .recruiting {
     background-color: rgb(80, 135, 80);
 }
+
 .mobile {
     background-color: orange;
 }
+
 .website {
     background-color: rgb(199, 72, 93);
 }
