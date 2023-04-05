@@ -29,6 +29,8 @@ header {
 
 }
 
+/* fine header */
+
 body {
     background-color: lightgrey;
 }
@@ -47,6 +49,8 @@ button {
     background-color: rgb(46, 126, 200);
 }
 
+/* fine contenitore bottoni add */
+
 .lista {
     background-color: white;
     margin: 10px 50px 10px 50px;
@@ -56,10 +60,17 @@ button {
 .arrow {
     border: none;
     cursor: pointer;
+    background: none;
 }
 
 ul {
     list-style: none;
+    padding: 15px;
+    font-size: 20px;
+}
+
+li {
+    padding: 10px;
 }
 
 
@@ -81,11 +92,30 @@ ul {
     border-radius: 50%;
 }
 
-
+/* colori bottoni lista */
 
 .editorial {
     background-color: rgb(17, 144, 242);
 }
+
 .recruiting {
     background-color: aqua;
+}
+
+.bgoals {
+    background-color: blueviolet;
+}
+
+.recruiting {
+    background-color: rgb(80, 135, 80);
+}
+.mobile {
+    background-color: orange;
+}
+.website {
+    background-color: rgb(199, 72, 93);
+}
+
+.sales {
+    background-color: rgb(98, 218, 98);
 }
