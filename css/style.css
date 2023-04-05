@@ -33,15 +33,18 @@ body {
 }
 
 /* indicazioni generali bottoni */
-.bottoni {
+.conteiner {
     background-color: white;
     margin: 10px 50px 10px 50px;
     padding: 10px;
 }
 
-button {
+.tes {
     border-radius: 10%;
     padding: 10px;
+    color:white;
+    border: 1px solid grey;
+  
 }
 
 #bazzurro {
@@ -88,8 +91,10 @@ li {
     border-radius: 50%;
 }
 
-li button {
+.bottone {
     border-radius: 40px;
+    padding: 10px;
+    border: 1px solid lightgrey;
 }
 
 /* colori bottoni lista */
