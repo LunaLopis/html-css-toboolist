@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <title>Toboolist</title>
 </head>
@@ -19,8 +23,8 @@
 
   <main>
     <div class="conteiner">
-      <button class="tes" id="bazzurro" type="button">Add Task</button>
-      <button class="tes" type="button">Add Section</button>
+      <button class="tes" id="add_button" type="button">Add Task</button>
+      <button class="tes" id="add_section" type="button">Add Section</button>
     </div>
     <!-- INIZIO LISTA -->
     <div class="lista">
@@ -33,7 +37,7 @@
           <ul>
             <li>
               <span class="checkmark">&#10003;</span>
-              <span>Quaterly Newsletter</span>
+              <span class="contenuto" >Quaterly Newsletter</span>
               <button class="bottone editorial" type="button">Editorial</button>
             </li>
           </ul>
@@ -45,23 +49,23 @@
           <!-- sottolista -->
           <ul>
             <li>
-              <span class="checkmark">&#10003;</span>
-              <span>Recruiting blog post</span>
+              <span class="checkmark">&check;</span>
+              <span class="contenuto">Recruiting blog post</span>
               <button class="bottone editorial" type="button">Editorial</button>
             </li>
             <li>
-              <span class="checkmark">&#10003;</span>
-              <span>Mobile app launch</span>
+              <span class="checkmark">&check;</span>
+              <span class="contenuto">Mobile app launch</span>
               <button class="bottone bgoals" type="button">Q1 Goals</button>
             </li>
             <li>
               <span class="crossmark">&#9747;</span>
-              <span>Interview John H.</span>
+              <span class="contenuto">Interview John H.</span>
               <button class="bottone recruiting" type="button">Recruiting</button>
             </li>
             <li>
-              <span class="checkmark">&#10003;</span>
-              <span>Summit Update to Mobile storefronts</span>
+              <span class="checkmark">&check;</span>
+              <span class="contenuto">Summit Update to Mobile storefronts</span>
               <button class="bottone mobile" type="button">Mobile</button>
             </li>
           </ul>
@@ -73,21 +77,21 @@
           <ul>
             <li class="sottolista">
               <span class="crossmark">&#9747;</span>
-              <span>Schedule Meeting with Alex</span>
+              <span class="contenuto">Schedule Meeting with Alex</span>
             </li>
             <li>
-              <span class="checkmark">&#10003;</span>
-              <span>Homepage Refresh</span>
+              <span class="checkmark">&check;</span>
+              <span class="contenuto">Homepage Refresh</span>
               <button class="bottone website" type="button">Website</button>
             </li>
             <li>
-              <span class="checkmark">&#10003;</span>
-              <span>Onboard new sales team members</span>
+              <span class="checkmark">&check;</span>
+              <span class="contenuto">Onboard new sales team members</span>
               <button class="bottone sales" type="button">Sales</button>
             </li>
             <li>
-              <span class="checkmark">&#10003;</span>
-              <span>Review editorial calendar </span>
+              <span class="checkmark">&check;</span>
+              <span class="contenuto">Review editorial calendar </span>
               <button class="bottone editorial" type="button">Editorial</button>
             </li>
           </ul>
